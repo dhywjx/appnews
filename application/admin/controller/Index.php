@@ -1,5 +1,6 @@
 <?php
 /**
+ * 新闻app后端主界面控制器
  * Created by PhpStorm.
  * User: 王晶旭
  * Date: 2018/3/31
@@ -9,12 +10,23 @@
 namespace app\admin\controller;
 
 
-use think\Controller;
-
-class Index extends Controller
+class Index extends Base
 {
+    /**
+     * 后端主页面
+     * @return mixed
+     */
     public function index()
     {
-        return "admin/Index/index";
+        return $this->fetch('index');
+    }
+
+    /**
+     * index中框架中主页面
+     * @return mixed
+     */
+    public function welcome()
+    {
+        return $this->fetch('welcome');
     }
 }
