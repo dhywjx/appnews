@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+[ 2018-03-31T00:22:40+08:00 ] 127.0.0.1 GET /public/index.php
+[ info ] www.appnews.com/public/index.php [运行时间：0.230823s][吞吐率：4.33req/s] [内存消耗：1,239.93kb] [文件加载：42]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; pgv_si=s2932499456',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
