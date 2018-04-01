@@ -13,15 +13,15 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '127.0.0.1',
+    'hostname'        => '111.231.143.243',
     // 数据库名
-    'database'        => '',
+    'database'        => 'appnews',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'wangjx',
     // 密码
-    'password'        => '',
+    'password'        => 'Wjx1996',
     // 端口
-    'hostport'        => '',
+    'hostport'        => '3306',
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数
@@ -29,7 +29,7 @@ return [
     // 数据库编码默认采用utf8
     'charset'         => 'utf8',
     // 数据库表前缀
-    'prefix'          => '',
+    'prefix'          => 'ent_',
     // 数据库调试模式
     'debug'           => true,
     // 数据库部署方式:0 集中式(单一服务器),1 分布式(主从服务器)
@@ -50,4 +50,6 @@ return [
     'datetime_format' => 'Y-m-d H:i:s',
     // 是否需要进行SQL性能分析
     'sql_explain'     => false,
+    // 开启断线重连
+    'break_reconnect' => true,
 ];

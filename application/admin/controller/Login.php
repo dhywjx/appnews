@@ -10,7 +10,10 @@
 namespace app\admin\controller;
 
 
+use app\common\lib\IAuth;
 use think\captcha\Captcha;
+use think\Exception;
+use think\Request;
 
 class Login extends Base
 {
@@ -54,5 +57,44 @@ class Login extends Base
         $captcha->useNoise = true;
         $captcha->reset = true;
         return $captcha->entry();
+    }
+
+    /**
+     * 验证登录信息
+     * @param Request $request
+     * @return \think\response\Json
+     */
+    public function check(Request $request)
+    {
+        //初始化json返回参数
+        $status = 0;
+        $result = '';
+        $data = $request->param();
+
+        //验证
+        if ($request->isPost()) {
+            $validate = validate('LoginUser');
+            if ($validate->check($data)) {
+                try {
+                    $user = model('AdminUser')->get(['username'=>$data['username']]);
+                } catch (Exception $exception) {
+                    $result = $exception->getMessage();
+                    return show_json($status, $result, $data);
+                }
+
+                if ($user == null || $user->status != config("code.status_normal")) {
+                    $result = '该用户不存在';
+                } elseif (IAuth::setPassword($data["password"]) != $user["password"]) {
+                    $result = '密码不正确';
+                } else {
+                    $status = 1;
+                    $result = '登录成功!';
+                }
+            } else {
+                $result = $validate->getError();
+            }
+        }
+
+        return show_json($status, $result, $data);
     }
 }
