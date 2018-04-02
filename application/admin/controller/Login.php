@@ -14,6 +14,7 @@ use app\common\lib\IAuth;
 use think\captcha\Captcha;
 use think\Exception;
 use think\Request;
+use think\Session;
 
 class Login extends Base
 {
@@ -89,10 +90,14 @@ class Login extends Base
                 } else {
                     $status = 1;
                     $result = '登录成功!';
+                    Session::set(config("admin.session_user"), $user->getData());
+                    Session::set(config("admin.session_user_id"), $user->id);
                 }
             } else {
                 $result = $validate->getError();
             }
+        }else{
+            $result = "请求不合法!";
         }
 
         return show_json($status, $result, $data);
