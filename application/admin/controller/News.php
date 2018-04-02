@@ -10,12 +10,40 @@
 namespace app\admin\controller;
 
 
+use think\Exception;
+
 class News extends Base
 {
 
 
+    /**
+     * 新闻列表页面显示
+     * @return mixed
+     */
     public function index()
     {
-        return $this->fetch('index');
+        $data = input('param.');
+        $whereData = [];
+
+        $this->getPageAndSize($data);
+
+        try {
+            //当前列表新闻数据
+            $news = model('News')->getNewsByCondition($whereData, $this->from, $this->size);
+            //新闻总数
+            $total = model('News')->getNewsCount($whereData);
+        } catch (Exception $exception) {
+            return $exception->getMessage();
+        }
+        //新闻总页数
+        $pageTotal = ceil($total / $this->size);
+        //判断当前页面是否是最后一页
+        if ($this->page == $pageTotal) {
+            $nlist = $total - $this->from;
+        }else{
+            $nlist = $this->size;
+        }
+
+        return "新闻总数:" . $total . var_dump($news);
     }
 }

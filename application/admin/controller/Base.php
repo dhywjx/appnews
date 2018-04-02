@@ -15,6 +15,12 @@ use think\Session;
 
 class Base extends Controller
 {
+    //page 获取页数
+    protected $page = '';
+    //size 获取每页多少条数据
+    protected $size = '';
+    //from 查询条件中的新闻起始值
+    protected $from = 0;
 
     protected function _initialize()
     {
@@ -37,5 +43,13 @@ class Base extends Controller
         if (!empty(USER_ID)) {
             $this->error('用户已经登录，请勿重复登录', url('admin/index/index'));
         }
+    }
+
+    //获取新闻分页的 page size from 的值
+    protected function getPageAndSize($data = [])
+    {
+        $this->page = empty($data['page']) ? 1 : $data['page'];
+        $this->size = empty($data['size']) ? config("paginate.list_rows") : $data['size'];
+        $this->from = ($this->page - 1) * $this->size;
     }
 }
