@@ -1,5 +1,6 @@
 <?php
 /**
+ * 基础数据库模型类
  * Created by PhpStorm.
  * User: 王晶旭
  * Date: 2018/4/1

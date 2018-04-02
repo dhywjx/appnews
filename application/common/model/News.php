@@ -1,16 +1,16 @@
 <?php
 /**
- * 用户模型类
+ * 新闻模型类
  * Created by PhpStorm.
  * User: 王晶旭
- * Date: 2018/4/1
- * Time: 23:43
+ * Date: 2018/4/2
+ * Time: 23:24
  */
 
 namespace app\common\model;
 
 
-class AdminUser extends Base
+class News extends Base
 {
 
 }

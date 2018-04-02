@@ -24,6 +24,7 @@ class Login extends Base
      */
     public function login()
     {
+        $this->alreadyLogin();
         return $this->fetch('login');
     }
 
@@ -101,5 +102,16 @@ class Login extends Base
         }
 
         return show_json($status, $result, $data);
+    }
+
+    /**
+     *退出登录的逻辑
+     */
+    public function logout()
+    {
+        Session::delete(config("admin.session_user"));
+        Session::delete(config("admin.session_user_id"));
+
+        $this->redirect("admin/login/login");
     }
 }

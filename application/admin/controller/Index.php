@@ -18,6 +18,7 @@ class Index extends Base
      */
     public function index()
     {
+        $this->isLogin();
         return $this->fetch('index');
     }
 
