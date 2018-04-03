@@ -44,6 +44,13 @@ class News extends Base
             $nlist = $this->size;
         }
 
-        return "新闻总数:" . $total . var_dump($news);
+        return $this->fetch('index',[
+            'cats' => config('cat.lists'),
+            'catid' => empty($data['catid']) ? '' : $data['catid'],
+            'title' => empty($data['title']) ? '' : $data['title'],
+            'start_time' => empty($data['start_time']) ? '' : $data['start_time'],
+            'end_time' => empty($data['end_time']) ? '' : $data['end_time'],
+            'news' => $news,
+        ]);
     }
 }
