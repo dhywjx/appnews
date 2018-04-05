@@ -11,16 +11,16 @@ function selecttime(flag){
     if (flag == 1) {
         var endTime = $("#countTimeEnd").val();
         if (endTime != "") {
-            WdatePicker({dataFmt:'yyyy-MM-dd',maxDate:endTime});
+            WdatePicker({dataFmt:'yyyy-MM-dd HH:mm',maxDate:endTime});
         }else {
-            WdatePicker({dataFmt:'yyyy-MM-dd'});
+            WdatePicker({dataFmt:'yyyy-MM-dd HH:mm'});
         }
     }else {
         var startTime = $("#countTimeStart").val();
         if (startTime != "") {
-            WdatePicker({dateFmt:'yyyy-MM-dd',minDate:startTime});
+            WdatePicker({dateFmt:'yyyy-MM-dd HH:mm',minDate:startTime});
         }else {
-            WdatePicker({dateFmt:'yyyy-MM-dd'})
+            WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})
         }
     }
 }

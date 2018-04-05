@@ -16,6 +16,7 @@
             <input type="text" name="start_time" class="input-text" id="countTimeStart" onfocus="selecttime(1)" value="{$start_time}" style="width:120px;" >
             -
             <input type="text" name="end_time" class="input-text" id="countTimeEnd" onfocus="selecttime(0)" value="{$end_time}"  style="width:120px;">
+            <input type="text" name="title" id="" value="{$title}" placeholder=" 新闻名称" style="width:250px" class="input-text">
             <button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜新闻</button>
         </form>
     </div>
@@ -52,11 +53,41 @@
             {/volist}
             </tbody>
         </table>
+        <div class="text-c mt-30">
+            <div id="laypage"></div>
+        </div>
     </div>
 </div>
 
 {include file="public/_footer" /}
+
 <script type="text/javascript" src="__STATIC__/h-uiadmin/lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <script type="text/javascript" src="__STATIC__/h-uiadmin/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript">
+
+    //layui分页功能的调用
+    layui.use(['laypage','layer'],function () {
+
+        var laypage = layui.laypage;
+        var layer = layui.layer;
+        var url = "{:url('admin/news/index')}" + "?{$query}";
+
+        laypage.render({
+            elem: 'laypage'
+            ,count: '{$total}'
+            ,limit: '{$size}'
+            , theme: '#1E9FFF'
+            ,curr : '{$curr}'
+            ,layout: ['prev', 'page', 'next', 'skip']
+            ,jump: function(e, first){ //触发分页后的回调
+                if(!first){ //一定要加此判断，否则初始时会无限刷新
+                    location.href = url + '&page='+e.curr;
+                }
+            }
+        });
+    });
+
+
+</script>
 </body>
 </html>

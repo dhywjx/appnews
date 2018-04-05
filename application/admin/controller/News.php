@@ -17,13 +17,32 @@ class News extends Base
 
 
     /**
-     * 新闻列表页面显示
+     * 新闻列表页面显示及查询
      * @return mixed
      */
     public function index()
     {
         $data = input('param.');
+        $query = http_build_query($data);
         $whereData = [];
+
+        //查询日期
+        if (!empty($data['start_time']) && !empty($data['end_time'])) {
+            $whereData['create_time'] = [
+                ['gt', strtotime($data['start_time'])],
+                ['lt', strtotime($data['end_time'])],
+            ];
+        }
+
+        //查询栏目
+        if (!empty($data['catid'])) {
+            $whereData['catid'] = intval($data['catid']);
+        }
+
+        //查询标题
+        if (!empty($data['title'])) {
+            $whereData['title'] = ['like', '%' . $data['title'] . '%'];
+        }
 
         $this->getPageAndSize($data);
 
@@ -35,14 +54,6 @@ class News extends Base
         } catch (Exception $exception) {
             return $exception->getMessage();
         }
-        //新闻总页数
-        $pageTotal = ceil($total / $this->size);
-        //判断当前页面是否是最后一页
-        if ($this->page == $pageTotal) {
-            $nlist = $total - $this->from;
-        }else{
-            $nlist = $this->size;
-        }
 
         return $this->fetch('index',[
             'cats' => config('cat.lists'),
@@ -51,6 +62,14 @@ class News extends Base
             'start_time' => empty($data['start_time']) ? '' : $data['start_time'],
             'end_time' => empty($data['end_time']) ? '' : $data['end_time'],
             'news' => $news,
+            'query' => $query,
+            'total' => $total,
+            'curr' => $this->page,
+            'size' => $this->size,
+            'start_time' => empty($data['start_time']) ? '' : $data['start_time'],
+            'end_time' => empty($data['end_time']) ? '' : $data['end_time'],
+            'catid' => empty($data['catid']) ? '' : $data['catid'],
+            'title' => empty($data['title']) ? '' : $data['title'],
         ]);
     }
 }
