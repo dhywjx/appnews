@@ -72,4 +72,15 @@ class News extends Base
             'title' => empty($data['title']) ? '' : $data['title'],
         ]);
     }
+
+    /**
+     * 添加新闻页面显示
+     * @return mixed
+     */
+    public function add()
+    {
+        return $this->fetch('add',[
+            'cats' => config("cat.lists"),
+        ]);
+    }
 }
