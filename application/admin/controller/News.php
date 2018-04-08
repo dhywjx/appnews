@@ -79,6 +79,7 @@ class News extends Base
      */
     public function add()
     {
+        $this->isLogin();
         return $this->fetch('add',[
             'cats' => config("cat.lists"),
         ]);

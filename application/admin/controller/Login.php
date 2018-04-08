@@ -69,7 +69,7 @@ class Login extends Base
     public function check(Request $request)
     {
         //初始化json返回参数
-        $status = 0;
+        $status = config("code.error");
         $result = '';
         $data = $request->param();
 
@@ -89,7 +89,7 @@ class Login extends Base
                 } elseif (IAuth::setPassword($data["password"]) != $user["password"]) {
                     $result = '密码不正确';
                 } else {
-                    $status = 1;
+                    $status = config("code.success");
                     $result = '登录成功!';
                     Session::set(config("admin.session_user"), $user->getData());
                     Session::set(config("admin.session_user_id"), $user->id);

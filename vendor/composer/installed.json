@@ -1,60 +1,70 @@
 [
     {
-        "name": "topthink/think-installer",
-        "version": "v1.0.12",
-        "version_normalized": "1.0.12.0",
+        "name": "qiniu/php-sdk",
+        "version": "v7.2.3",
+        "version_normalized": "7.2.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/top-think/think-installer.git",
-            "reference": "1be326e68f63de4e95977ed50f46ae75f017556d"
+            "url": "https://github.com/qiniu/php-sdk.git",
+            "reference": "67852ba9cdd7f48e0e080961abebafee134fb329"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/top-think/think-installer/1be326e68f63de4e95977ed50f46ae75f017556d.zip",
-            "reference": "1be326e68f63de4e95977ed50f46ae75f017556d",
+            "url": "https://files.phpcomposer.com/files/qiniu/php-sdk/67852ba9cdd7f48e0e080961abebafee134fb329.zip",
+            "reference": "67852ba9cdd7f48e0e080961abebafee134fb329",
             "shasum": ""
         },
         "require": {
-            "composer-plugin-api": "^1.0"
+            "php": ">=5.3.3"
         },
         "require-dev": {
-            "composer/composer": "1.0.*@dev"
+            "phpunit/phpunit": "~4.0",
+            "squizlabs/php_codesniffer": "~2.3"
         },
-        "time": "2017-05-27 06:58:09",
-        "type": "composer-plugin",
-        "extra": {
-            "class": "think\\composer\\Plugin"
-        },
+        "time": "2018-02-20T13:59:54+00:00",
+        "type": "library",
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "think\\composer\\": "src"
-            }
+                "Qiniu\\": "src/Qiniu"
+            },
+            "files": [
+                "src/Qiniu/functions.php"
+            ]
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "Apache-2.0"
+            "MIT"
         ],
         "authors": [
             {
-                "name": "yunwuxin",
-                "email": "448901948@qq.com"
+                "name": "Qiniu",
+                "email": "sdk@qiniu.com",
+                "homepage": "http://www.qiniu.com"
             }
+        ],
+        "description": "Qiniu Resource (Cloud) Storage SDK for PHP",
+        "homepage": "http://developer.qiniu.com/",
+        "keywords": [
+            "cloud",
+            "qiniu",
+            "sdk",
+            "storage"
         ]
     },
     {
         "name": "topthink/framework",
-        "version": "v5.0.15",
-        "version_normalized": "5.0.15.0",
+        "version": "v5.0.16",
+        "version_normalized": "5.0.16.0",
         "source": {
             "type": "git",
             "url": "https://github.com/top-think/framework.git",
-            "reference": "7c1375791fe8772e33282ee8611ea465dc215fca"
+            "reference": "97de5ec026074ff9721fe8743396095f34712da0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/top-think/framework/7c1375791fe8772e33282ee8611ea465dc215fca.zip",
-            "reference": "7c1375791fe8772e33282ee8611ea465dc215fca",
+            "url": "https://files.phpcomposer.com/files/top-think/framework/97de5ec026074ff9721fe8743396095f34712da0.zip",
+            "reference": "97de5ec026074ff9721fe8743396095f34712da0",
             "shasum": ""
         },
         "require": {
@@ -69,7 +79,7 @@
             "phpunit/phpunit": "4.8.*",
             "sebastian/phpcpd": "2.*"
         },
-        "time": "2018-01-31 08:40:10",
+        "time": "2018-03-26T09:24:20+00:00",
         "type": "think-framework",
         "installation-source": "dist",
         "autoload": {
@@ -110,7 +120,7 @@
             "reference": "0c55455df26a1626a60d0dc35d2d89002b741d44",
             "shasum": ""
         },
-        "time": "2016-07-06 01:47:11",
+        "time": "2016-07-06T01:47:11+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -134,84 +144,6 @@
         "description": "captcha package for thinkphp5"
     },
     {
-        "name": "topthink/think-mongo",
-        "version": "v1.8.2",
-        "version_normalized": "1.8.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/top-think/think-mongo.git",
-            "reference": "5433e971b4892b09cbec49090c690f5d4350a981"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://files.phpcomposer.com/files/top-think/think-mongo/5433e971b4892b09cbec49090c690f5d4350a981.zip",
-            "reference": "5433e971b4892b09cbec49090c690f5d4350a981",
-            "shasum": ""
-        },
-        "time": "2018-01-30 07:12:02",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "think\\mongo\\": "src"
-            },
-            "files": []
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "Apache-2.0"
-        ],
-        "authors": [
-            {
-                "name": "liu21st",
-                "email": "liu21st@gmail.com"
-            }
-        ],
-        "description": "mongodb driver for thinkphp5"
-    },
-    {
-        "name": "topthink/think-image",
-        "version": "v1.0.7",
-        "version_normalized": "1.0.7.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/top-think/think-image.git",
-            "reference": "8586cf47f117481c6d415b20f7dedf62e79d5512"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://files.phpcomposer.com/files/top-think/think-image/8586cf47f117481c6d415b20f7dedf62e79d5512.zip",
-            "reference": "8586cf47f117481c6d415b20f7dedf62e79d5512",
-            "shasum": ""
-        },
-        "require": {
-            "ext-gd": "*"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "4.8.*",
-            "topthink/framework": "^5.0"
-        },
-        "time": "2016-09-29 06:05:43",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "think\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "Apache-2.0"
-        ],
-        "authors": [
-            {
-                "name": "yunwuxin",
-                "email": "448901948@qq.com"
-            }
-        ],
-        "description": "The ThinkPHP5 Image Package"
-    },
-    {
         "name": "topthink/think-helper",
         "version": "v1.0.6",
         "version_normalized": "1.0.6.0",
@@ -226,7 +158,7 @@
             "reference": "0c99dc625b0d2d4124e1b6ca15a3ad6f0125963f",
             "shasum": ""
         },
-        "time": "2017-04-05 07:15:37",
+        "time": "2017-04-05T07:15:37+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -250,6 +182,204 @@
         "description": "The ThinkPHP5 Helper Package"
     },
     {
+        "name": "topthink/think-image",
+        "version": "v1.0.7",
+        "version_normalized": "1.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-image.git",
+            "reference": "8586cf47f117481c6d415b20f7dedf62e79d5512"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/top-think/think-image/8586cf47f117481c6d415b20f7dedf62e79d5512.zip",
+            "reference": "8586cf47f117481c6d415b20f7dedf62e79d5512",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.*",
+            "topthink/framework": "^5.0"
+        },
+        "time": "2016-09-29T06:05:43+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "yunwuxin",
+                "email": "448901948@qq.com"
+            }
+        ],
+        "description": "The ThinkPHP5 Image Package"
+    },
+    {
+        "name": "topthink/think-installer",
+        "version": "v1.0.12",
+        "version_normalized": "1.0.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-installer.git",
+            "reference": "1be326e68f63de4e95977ed50f46ae75f017556d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/top-think/think-installer/1be326e68f63de4e95977ed50f46ae75f017556d.zip",
+            "reference": "1be326e68f63de4e95977ed50f46ae75f017556d",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev"
+        },
+        "time": "2017-05-27T06:58:09+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "think\\composer\\Plugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\composer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "yunwuxin",
+                "email": "448901948@qq.com"
+            }
+        ]
+    },
+    {
+        "name": "topthink/think-migration",
+        "version": "v1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-migration.git",
+            "reference": "8e489f8d38a39876690c0e00fcf9a54ae92c4d3d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/top-think/think-migration/8e489f8d38a39876690c0e00fcf9a54ae92c4d3d.zip",
+            "reference": "8e489f8d38a39876690c0e00fcf9a54ae92c4d3d",
+            "shasum": ""
+        },
+        "require-dev": {
+            "topthink/framework": "^5.0"
+        },
+        "time": "2017-03-31T06:33:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Phinx\\": "phinx/src/Phinx",
+                "think\\migration\\": "src"
+            },
+            "files": [
+                "src/config.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "yunwuxin",
+                "email": "448901948@qq.com"
+            }
+        ]
+    },
+    {
+        "name": "topthink/think-mongo",
+        "version": "v1.8.4",
+        "version_normalized": "1.8.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-mongo.git",
+            "reference": "4ea4eaf8d7dc272122e124c6e795b3b5badb30ab"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/top-think/think-mongo/4ea4eaf8d7dc272122e124c6e795b3b5badb30ab.zip",
+            "reference": "4ea4eaf8d7dc272122e124c6e795b3b5badb30ab",
+            "shasum": ""
+        },
+        "time": "2018-04-01T11:14:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\mongo\\": "src"
+            },
+            "files": []
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu21st",
+                "email": "liu21st@gmail.com"
+            }
+        ],
+        "description": "mongodb driver for thinkphp5"
+    },
+    {
+        "name": "topthink/think-oracle",
+        "version": "v1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-oracle.git",
+            "reference": "02e902b0cc63502e60995431a0da521454cd6f34"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/top-think/think-oracle/02e902b0cc63502e60995431a0da521454cd6f34.zip",
+            "reference": "02e902b0cc63502e60995431a0da521454cd6f34",
+            "shasum": ""
+        },
+        "time": "2017-02-06T02:03:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\oracle\\": "src"
+            },
+            "files": []
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu21st",
+                "email": "liu21st@gmail.com"
+            }
+        ],
+        "description": "Oracle driver for thinkphp5"
+    },
+    {
         "name": "topthink/think-queue",
         "version": "v1.1.4",
         "version_normalized": "1.1.4.0",
@@ -268,7 +398,7 @@
             "topthink/think-helper": ">=1.0.4",
             "topthink/think-installer": ">=1.0.10"
         },
-        "time": "2017-06-25 00:49:56",
+        "time": "2017-06-25T00:49:56+00:00",
         "type": "think-extend",
         "extra": {
             "think-config": {
@@ -295,82 +425,5 @@
             }
         ],
         "description": "The ThinkPHP5 Queue Package"
-    },
-    {
-        "name": "topthink/think-migration",
-        "version": "v1.1.1",
-        "version_normalized": "1.1.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/top-think/think-migration.git",
-            "reference": "8e489f8d38a39876690c0e00fcf9a54ae92c4d3d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://files.phpcomposer.com/files/top-think/think-migration/8e489f8d38a39876690c0e00fcf9a54ae92c4d3d.zip",
-            "reference": "8e489f8d38a39876690c0e00fcf9a54ae92c4d3d",
-            "shasum": ""
-        },
-        "require-dev": {
-            "topthink/framework": "^5.0"
-        },
-        "time": "2017-03-31 06:33:23",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Phinx\\": "phinx/src/Phinx",
-                "think\\migration\\": "src"
-            },
-            "files": [
-                "src/config.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "Apache-2.0"
-        ],
-        "authors": [
-            {
-                "name": "yunwuxin",
-                "email": "448901948@qq.com"
-            }
-        ]
-    },
-    {
-        "name": "topthink/think-oracle",
-        "version": "v1.2",
-        "version_normalized": "1.2.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/top-think/think-oracle.git",
-            "reference": "02e902b0cc63502e60995431a0da521454cd6f34"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://files.phpcomposer.com/files/top-think/think-oracle/02e902b0cc63502e60995431a0da521454cd6f34.zip",
-            "reference": "02e902b0cc63502e60995431a0da521454cd6f34",
-            "shasum": ""
-        },
-        "time": "2017-02-06 02:03:03",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "think\\oracle\\": "src"
-            },
-            "files": []
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "Apache-2.0"
-        ],
-        "authors": [
-            {
-                "name": "liu21st",
-                "email": "liu21st@gmail.com"
-            }
-        ],
-        "description": "Oracle driver for thinkphp5"
     }
 ]
