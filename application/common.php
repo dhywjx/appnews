@@ -64,10 +64,17 @@ function getIsYesOrNo($is_position = 0)
  */
 function getStatus($id = 0, $status = 0)
 {
+    $controller = request()->controller();
+    //转变status
+    $sta = ($status == 1) ? 0 : 1;
+    $url = url($controller . '/status', [
+        'id' => $id,
+        'status' => $sta,
+    ]);
     if ($status == 1) {
-        $str = "<a href='javascript:;' title='修改状态'><span class='label label-success radius'>正常</span></a>";
+        $str = "<a href='javascript:;' title='修改状态' status_url='".$url."' onclick='app_status(this)'><span class='label label-success radius'>正常</span></a>";
     } elseif ($status == 0) {
-        $str = "<a href='javascript:;' title='修改状态'><span class='label label-danger radius'>待审</span></a>";
+        $str = "<a href='javascript:;' title='修改状态' status_url='".$url."' onclick='app_status(this)'><span class='label label-danger radius'>待审</span></a>";
     }
 
     return $str;

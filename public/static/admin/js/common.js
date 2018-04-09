@@ -11,16 +11,59 @@ function selecttime(flag){
     if (flag == 1) {
         var endTime = $("#countTimeEnd").val();
         if (endTime != "") {
-            WdatePicker({dataFmt:'yyyy-MM-dd HH:mm',maxDate:endTime});
+            WdatePicker({dataFmt:'yyyy-MM-dd',maxDate:endTime});
         }else {
-            WdatePicker({dataFmt:'yyyy-MM-dd HH:mm'});
+            WdatePicker({dataFmt:'yyyy-MM-dd'});
         }
     }else {
         var startTime = $("#countTimeStart").val();
         if (startTime != "") {
-            WdatePicker({dateFmt:'yyyy-MM-dd HH:mm',minDate:startTime});
+            WdatePicker({dateFmt:'yyyy-MM-dd',minDate:startTime});
         }else {
-            WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})
+            WdatePicker({dateFmt:'yyyy-MM-dd'})
         }
     }
+}
+
+/**
+ * 通用化的from表单提交
+ * @param form
+ */
+function appnews_save(form) {
+    var data = $(form).serialize();
+    url = $(form).attr('url');
+    $.post(url, data, function (result) {
+        if (result.code == 0) {
+            layer.msg(result.msg, {icon: 5, time: 2000});
+        }else if (result.code == 1) {
+            layer.msg(result.msg, {icon: 6, time: 2000});
+            location.reload();
+        }
+    }, 'JSON');
+}
+
+/**
+ * 通用化的修改状态的操作
+ * @param obj
+ */
+function app_status(obj) {
+    url = $(obj).attr('status_url');
+    layer.confirm('确认要修改吗？',function (index) {
+        $.ajax({
+            type: 'POST',
+            url: url,
+            dataType: 'json',
+            success:function (data) {
+                if (data.code == 1) {
+                    layer.msg(data.msg, {icon: 1, time: 2000});
+                    self.location = data.data.jump_url;
+                }else if (data.code == 0) {
+                    layer.msg(data.msg, {icon: 2, time: 2000});
+                }
+            },
+            error:function (data) {
+                console.log(data.msg);
+            }
+        });
+    });
 }

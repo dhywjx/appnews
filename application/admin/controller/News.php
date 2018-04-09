@@ -28,7 +28,7 @@ class News extends Base
 
         //查询日期
         if (!empty($data['start_time']) && !empty($data['end_time'])) {
-            $whereData['create_time'] = [
+            $whereData['update_time'] = [
                 ['gt', strtotime($data['start_time'])],
                 ['lt', strtotime($data['end_time'])],
             ];
@@ -80,6 +80,19 @@ class News extends Base
     public function add()
     {
         $this->isLogin();
+        if (request()->isPost()) {
+            $data = input('post.');
+            try {
+                $id = model('News')->add($data);
+            } catch (Exception $exception) {
+                return $this->result('', 0, '新增失败' . $exception->getMessage());
+            }
+            if (true) {
+                return $this->result('',1,'新增成功');
+            } else {
+                return $this->result('',0,'新增失败');
+            }
+        }
         return $this->fetch('add',[
             'cats' => config("cat.lists"),
         ]);

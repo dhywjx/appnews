@@ -11,6 +11,7 @@ namespace app\admin\controller;
 
 
 use think\Controller;
+use think\Exception;
 use think\Session;
 
 class Base extends Controller
@@ -21,6 +22,8 @@ class Base extends Controller
     protected $size = '';
     //from 查询条件中的新闻起始值
     protected $from = 0;
+    //定义的model
+    protected $model = '';
 
     protected function _initialize()
     {
@@ -51,5 +54,24 @@ class Base extends Controller
         $this->page = empty($data['page']) ? 1 : $data['page'];
         $this->size = empty($data['size']) ? config("paginate.list_rows") : $data['size'];
         $this->from = ($this->page - 1) * $this->size;
+    }
+
+    /**
+     * 修改状态的逻辑
+     */
+    public function status()
+    {
+        $data = input('param.');
+        $model = $this->model ? $this->model : request()->controller();
+        try {
+            $res = model($model)->save(['status' => $data['status']], ['id' => $data['id']]);
+        } catch (Exception $exception) {
+            return $this->result('', 0, $exception->getMessage());
+        }
+        if ($res) {
+            return $this->result(['jump_url' => $_SERVER['HTTP_REFERER']], 1, 'OK');
+        } else {
+            return $this->result('', 0, '删除失败');
+        }
     }
 }
