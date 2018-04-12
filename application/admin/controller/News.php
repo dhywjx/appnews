@@ -97,4 +97,49 @@ class News extends Base
             'cats' => config("cat.lists"),
         ]);
     }
+
+    /**
+     * 编辑新闻页面显示
+     * @return mixed
+     */
+    public function edit()
+    {
+        $data = input('param.');
+
+        if (request()->isPost()) {
+            if (empty($data['is_allowcomments'])) {
+                $data['is_allowcomments'] = 0;
+            }
+            if (empty($data['is_head_figure'])) {
+                $data['is_head_figure'] = 0;
+            }
+            if (empty($data['is_position'])) {
+                $data['is_position'] = 0;
+            }
+            $data['update_time'] = time();
+            try {
+                $res = model('News')->save($data, ['id' => $data['id']]);
+            } catch (Exception $exception) {
+                return $this->result('', 0, $exception->getMessage());
+            }
+
+            if ($res) {
+                return $this->result('', 1, '修改成功');
+            }else{
+                return $this->result('', 0, '修改失败');
+            }
+        }
+
+        try {
+            $result = model('News')->get($data['id']);
+        } catch (Exception $exception) {
+            return $exception->getMessage();
+        }
+        return $this->fetch('edit',[
+            'result' => $result->getData(),
+            'cats' => config("cat.lists"),
+        ]);
+    }
+
+
 }

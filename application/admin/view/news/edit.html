@@ -1,17 +1,17 @@
 {include file="public/_meta" /}
-
 <article class="page-container">
-    <form class="form form-horizontal" id="form-newsadd" url="{:url('admin/news/add')}">
+    <form class="form form-horizontal" id="form-newsedit" url="{:url('admin/news/edit')}">
+        <input type="hidden" class="input-text" value="{$result.id}" placeholder="" id="id" name="id">
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>文章标题：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" placeholder="" id="title" name="title">
+                <input type="text" class="input-text" value="{$result.title}" placeholder="" id="title" name="title">
             </div>
         </div>
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>简略标题：</label>
+            <label class="form-label col-xs-4 col-sm-2">简略标题：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" class="input-text" value="" placeholder="" id="samll_title" name="small_title">
+                <input type="text" class="input-text" value="{$result.small_title}" placeholder="" id="samll_title" name="small_title">
             </div>
         </div>
         <div class="row cl">
@@ -19,7 +19,7 @@
             <div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
 				<select name="catid" class="select">
                  {volist name="cats" id="vo"}
-                    <option value="{$key}">{$vo}</option>
+                    <option value="{$key}" {if condition="$result.catid eq $key"}selected="selected"{/if}>{$vo}</option>
                   {/volist}
                 </select>
 				</span>
@@ -28,7 +28,7 @@
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>文章摘要：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <textarea name="description" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" ></textarea>
+                <textarea name="description" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" >{$result.description}</textarea>
                 <p class="textarea-numberbar"><em class="textarea-length">0</em>/200</p>
             </div>
         </div>
@@ -36,7 +36,7 @@
             <label class="form-label col-xs-4 col-sm-2">允许评论：</label>
             <div class="formControls col-xs-8 col-sm-9 skin-minimal">
                 <div class="check-box">
-                    <input type="checkbox" id="is_allowcomments" name="is_allowcomments" value="1">
+                    <input type="checkbox" id="is_allowcomments" name="is_allowcomments" value="1" {if condition="$result.is_allowcomments eq 1"}checked="checked"{/if}>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
             <label class="form-label col-xs-4 col-sm-2">是否推荐到首页头图：</label>
             <div class="formControls col-xs-8 col-sm-9 skin-minimal">
                 <div class="check-box">
-                    <input type="checkbox" id="is_head_figure" name="is_head_figure" value="1">
+                    <input type="checkbox" id="is_head_figure" name="is_head_figure" value="1" {if condition="$result.is_head_figure eq 1"}checked="checked"{/if}>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
             <label class="form-label col-xs-4 col-sm-2">是否推荐：</label>
             <div class="formControls col-xs-8 col-sm-9 skin-minimal">
                 <div class="check-box">
-                    <input type="checkbox" id="is_position" name="is_position" value="1">
+                    <input type="checkbox" id="is_position" name="is_position" value="1" {if condition="$result.is_position eq 1"}checked="checked"{/if}>
                 </div>
             </div>
         </div>
@@ -60,14 +60,14 @@
             <label class="form-label col-xs-4 col-sm-2">缩略图：</label>
             <div class="formControls col-xs-8 col-sm-9">
                 <input id="file_upload"  type="file" multiple="true" >
-                <img style="display: none" id="upload_org_code_img" src="" width="150" height="150">
-                <input id="file_upload_image" name="image" type="hidden" multiple="true" value="">
+                <img id="upload_org_code_img" src="{$result.image}" width="150" height="150">
+                <input id="file_upload_image" name="image" type="hidden" multiple="true" value="{$result.image}">
             </div>
         </div>
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">文章内容：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <script id="editor" type="text/plain" name="content"></script>
+                <script id="editor" type="text/plain" name="content">{$result.content}</script>
             </div>
         </div>
         <div class="row cl">
@@ -88,7 +88,6 @@
 <script type="text/javascript" src="__STATIC__/h-uiadmin/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/uploadify/jquery.uploadify.js"></script>
 <script type="text/javascript">
-
     $(function () {
 
         var ue = UE.getEditor('editor');
@@ -125,7 +124,7 @@
         });
 
         //表单验证
-        $('#form-newsadd').validate({
+        $('#form-newsedit').validate({
             rules:{
                 title:{
                     required:true
@@ -145,11 +144,10 @@
             focusCleanup:true,
             success:"valid",
             submitHandler:function(form){
-                appnews_save(form);
+                appnews_update(form);
             }
         });
     });
-
 </script>
 </body>
 </html>

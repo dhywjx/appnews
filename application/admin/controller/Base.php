@@ -69,7 +69,27 @@ class Base extends Controller
             return $this->result('', 0, $exception->getMessage());
         }
         if ($res) {
-            return $this->result(['jump_url' => $_SERVER['HTTP_REFERER']], 1, 'OK');
+            return $this->result(['jump_url' => $_SERVER['HTTP_REFERER']], 1, '修改成功');
+        } else {
+            return $this->result('', 0, '修改失败');
+        }
+    }
+
+    /**
+     * 删除状态的逻辑
+     */
+    public function delete()
+    {
+        $data = input('param.');
+        $model = $this->model ? $this->model : request()->controller();
+        try {
+            $res = model($model)->save(['status' => config("code.status_delete")], ['id' => $data['id']]);
+        } catch (Exception $exception) {
+            return $this->result('', 0, $exception->getMessage());
+        }
+
+        if ($res) {
+            return $this->result(['jump_url' => $_SERVER['HTTP_REFERER']], 1, '删除成功');
         } else {
             return $this->result('', 0, '删除失败');
         }

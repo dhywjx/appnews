@@ -87,6 +87,20 @@
         });
     });
 
+    /**
+     * 新闻编辑操作
+     * @param obj
+     */
+    function app_edit(obj) {
+        url = $(obj).attr('edit_url');
+        title = $(obj).attr('title');
+        var index = layer.open({
+            type : 2,
+            title : title,
+            content : url
+        });
+        layer.full(index);
+    }
 
 </script>
 </body>
