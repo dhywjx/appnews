@@ -79,3 +79,21 @@ function getStatus($id = 0, $status = 0)
 
     return $str;
 }
+
+/**
+ * 通用化api接口数据输出
+ * @param int $status
+ * @param string $message
+ * @param array $data
+ * @param int $httpCode
+ * @return array
+ */
+function show($status = 0, $message = '', $data = [], $httpCode = 200)
+{
+    $data = [
+        'status' => $status,
+        'message' => $message,
+        'data' => $data,
+    ];
+    return json($data, $httpCode);
+}
