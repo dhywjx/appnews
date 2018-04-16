@@ -31,6 +31,26 @@ function show_json($status = 0, $message = "" , $data = [])
 }
 
 /**
+ * 公共的api接口的数据输出
+ * @param int $status
+ * @param string $message
+ * @param array $data
+ * @param int $httpCode
+ * @return \think\response\Json
+ */
+function show_api_json($status = 0, $message = "", $data = [], $httpCode = 200)
+{
+    $data = [
+        'status' => $status,
+        'message' => $message,
+        'data' => $data,
+    ];
+    return json($data, $httpCode);
+}
+
+
+
+/**
  * 获取栏目名称
  * @param int $catId 新闻栏目序号
  * @return string
@@ -78,22 +98,4 @@ function getStatus($id = 0, $status = 0)
     }
 
     return $str;
-}
-
-/**
- * 通用化api接口数据输出
- * @param int $status
- * @param string $message
- * @param array $data
- * @param int $httpCode
- * @return array
- */
-function show($status = 0, $message = '', $data = [], $httpCode = 200)
-{
-    $data = [
-        'status' => $status,
-        'message' => $message,
-        'data' => $data,
-    ];
-    return json($data, $httpCode);
 }
