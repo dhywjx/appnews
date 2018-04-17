@@ -22,7 +22,6 @@ class Cat extends Common
     public function read()
     {
         $cats = config("cat.lists");
-        throw new ApiException('错误！', 403);
         $result[] = [
             'catid' => 0,
             'catname' => '首页',
