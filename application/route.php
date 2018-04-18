@@ -11,4 +11,6 @@
 
 use think\Route;
 
+Route::get('api/:ver/time', 'api/:ver.time/index');
 Route::get('api/:ver/cat', 'api/:ver.cat/read');
+Route::resource('test','api/test');
