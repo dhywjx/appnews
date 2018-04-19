@@ -63,12 +63,12 @@ class Common extends Controller
     {
         $data = [
             'did' => '1231',
-            'version' => '1',
+            'version' => '1',ce
             'username' => 'wjx',
             'time' => Time::get13TimeStamp(),
         ];
         //加密
-        $aes_str = "1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89";
+        $aes_str = "V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=";
         //加密
 //        echo (new Aes())->encrypt($str);
 //        exit();

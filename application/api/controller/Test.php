@@ -14,7 +14,7 @@ class Test extends Common
 {
     public function index()
     {
-        $date = input('post.');
+        $date = input('get.');
         return show_api_json(1, 'OK', input('post.'), 201);
     }
 
