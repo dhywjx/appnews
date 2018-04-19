@@ -19,6 +19,6 @@ return [
     //app sign的失效时间
     'app_sign_time' => 100000,
     //app sign在cache缓存中的失效时间
-    'app_sign_cache_time' => 200,
+    'app_sign_cache_time' => 20,
 
 ];

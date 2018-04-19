@@ -68,7 +68,7 @@ class Common extends Controller
             'time' => Time::get13TimeStamp(),
         ];
         //加密
-        $aes_str = "V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=";
+        $aes_str = "V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDJ6UmVSekw2eVBiQVBmNUE0RTRTK0ZIdkMrTm8zQkk3NmMxUjJ1d2JSRW9aUVdsaEpPa0Q4cmJkQ1VDMXNyUjhRPT0=";
         //加密
 //        echo (new Aes())->encrypt($str);
 //        exit();
