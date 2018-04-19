@@ -1,0 +1,314 @@
+---------------------------------------------------------------
+[ 2018-04-16T23:18:14+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：3.977136s][吞吐率：0.25req/s] [内存消耗：1,302.28kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'a787d5f5-8382-aff9-a3d2-0fe34822e7e4',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-16T23:36:34+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.248470s][吞吐率：4.02req/s] [内存消耗：1,333.84kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'e4881a42-3301-49c1-fd07-ddfcdffe29b8',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Invalid argument supplied for foreach()[F:\appnews\application\api\controller\v1\Cat.php:28]
+---------------------------------------------------------------
+[ 2018-04-16T23:49:44+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.089030s][吞吐率：11.23req/s] [内存消耗：1,330.94kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '0b9b856d-2ad0-2b24-cd72-d38b3896d2d1',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400]错误[F:\appnews\thinkphp\helper.php:59]
+---------------------------------------------------------------
+[ 2018-04-16T23:50:33+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.111074s][吞吐率：9.00req/s] [内存消耗：1,330.94kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'ef0406fe-49f9-ae36-3d2c-218610bfdb70',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400]错误[F:\appnews\thinkphp\helper.php:59]
+---------------------------------------------------------------
+[ 2018-04-16T23:50:37+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.078124s][吞吐率：12.80req/s] [内存消耗：1,330.94kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'da687529-f5b2-0801-8087-e987713a6073',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [400]错误[F:\appnews\thinkphp\helper.php:59]
+---------------------------------------------------------------
+[ 2018-04-16T23:52:13+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.165147s][吞吐率：6.06req/s] [内存消耗：1,333.05kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '7e5e8a25-9506-1417-19cc-90b7b3c0a35f',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]错误！[F:\appnews\application\api\controller\v1\Cat.php:25]
+---------------------------------------------------------------
+[ 2018-04-16T23:52:31+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.112317s][吞吐率：8.90req/s] [内存消耗：1,333.05kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'f06d08ec-988e-0968-76e9-d8d9f183aafc',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]错误！[F:\appnews\application\api\controller\v1\Cat.php:25]
+---------------------------------------------------------------
+[ 2018-04-16T23:54:20+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.598197s][吞吐率：1.67req/s] [内存消耗：1,336.69kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '12451f84-7117-3fe2-fbc8-f3f0baf7a69b',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]错误！[F:\appnews\application\api\controller\v1\Cat.php:25]
+---------------------------------------------------------------
+[ 2018-04-16T23:57:42+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.122018s][吞吐率：8.20req/s] [内存消耗：1,336.69kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'e6ea8f4a-8aac-30ff-461a-dea1be227d32',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]错误！[F:\appnews\application\api\controller\v1\Cat.php:25]

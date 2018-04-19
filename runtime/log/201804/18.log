@@ -1,0 +1,1320 @@
+---------------------------------------------------------------
+[ 2018-04-18T00:09:57+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]sign不存在
+---------------------------------------------------------------
+[ 2018-04-18T00:14:21+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:14:47+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:14:53+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:15:52+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:18:09+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:18:23+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:18:27+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:18:48+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:19:11+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [8]未定义数组索引: app_type
+---------------------------------------------------------------
+[ 2018-04-18T00:19:13+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.378853s][吞吐率：2.64req/s] [内存消耗：1,351.82kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '55c79f67-364c-b971-057e-6fc7c96469fc',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: app_type[F:\appnews\application\api\controller\Common.php:40]
+---------------------------------------------------------------
+[ 2018-04-18T00:20:33+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.110226s][吞吐率：9.07req/s] [内存消耗：1,351.70kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'b1ea5d1e-7fd8-6889-b6c6-fb5bbb3c3f92',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: app_type[F:\appnews\application\api\controller\Common.php:40]
+---------------------------------------------------------------
+[ 2018-04-18T00:21:35+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.112261s][吞吐率：8.91req/s] [内存消耗：1,351.70kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'e4a3e4ec-3242-d691-9c0a-2607879e8db8',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: app_type[F:\appnews\application\api\controller\Common.php:40]
+---------------------------------------------------------------
+[ 2018-04-18T00:22:15+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.130385s][吞吐率：7.67req/s] [内存消耗：1,351.70kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '140548e7-c4f7-f6f0-15dc-9e79b51049e8',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: app_type[F:\appnews\application\api\controller\Common.php:40]
+---------------------------------------------------------------
+[ 2018-04-18T00:22:18+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.095800s][吞吐率：10.44req/s] [内存消耗：1,336.76kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'e36d1995-7ddf-b23b-4535-2e6f67afd2b1',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T00:22:46+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.123643s][吞吐率：8.09req/s] [内存消耗：1,336.80kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'd29e71a0-039a-47bf-e512-09f4c2709c75',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T00:23:01+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.092921s][吞吐率：10.76req/s] [内存消耗：1,336.76kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '7a87f525-fc55-7da4-6a23-502c1159f788',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T00:23:19+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.089501s][吞吐率：11.17req/s] [内存消耗：1,336.80kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '998ba0d9-9d82-0d6f-0587-8fdffd4dcde8',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T00:24:04+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-04-18T00:25:10+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.094999s][吞吐率：10.53req/s] [内存消耗：1,346.41kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '8567a57e-032f-3a62-2731-b76052bb2274',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\appnews\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-04-18T00:25:51+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.119794s][吞吐率：8.35req/s] [内存消耗：1,346.41kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '2e0a3235-b784-a7ce-a416-b8ea8e4eaa4b',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\appnews\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-04-18T00:27:45+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.236240s][吞吐率：4.23req/s] [内存消耗：1,148.72kb] [文件加载：45]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1.0',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '42720abc-27f7-e1e2-f3e0-52c9a3c62bdb',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[F:\appnews\application\api\controller\Common.php:40]
+---------------------------------------------------------------
+[ 2018-04-18T00:27:57+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T00:30:38+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T00:30:44+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T00:30:54+08:00 ] 127.0.0.1 GET /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:32:21+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:36:10+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:37:36+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:39:43+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:40:33+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:44:44+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:45:22+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-04-18T22:45:53+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不合法
+---------------------------------------------------------------
+[ 2018-04-18T22:46:05+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不合法
+---------------------------------------------------------------
+[ 2018-04-18T22:46:20+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:46:33+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不存在
+---------------------------------------------------------------
+[ 2018-04-18T22:55:08+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]app_type不合法
+---------------------------------------------------------------
+[ 2018-04-18T22:55:16+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-04-18T22:55:50+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.528023s][吞吐率：1.89req/s] [内存消耗：1,354.94kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '5903458d-7e56-e3d9-3f68-fc072b77d5cf',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\appnews\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-04-18T22:56:21+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.122188s][吞吐率：8.18req/s] [内存消耗：1,350.80kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '85946c9c-5f7b-b7b6-8037-bc0b8fc885ac',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]app_type不存在[F:\appnews\application\api\controller\Common.php:42]
+---------------------------------------------------------------
+[ 2018-04-18T22:57:50+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.193191s][吞吐率：5.18req/s] [内存消耗：1,354.94kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'e8254bbb-029a-ae20-4d95-1e961c0c27ea',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\appnews\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-04-18T23:00:19+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.135061s][吞吐率：7.40req/s] [内存消耗：1,346.64kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '128b7763-5945-f108-afce-e4d7a36501c1',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\appnews\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-04-18T23:00:51+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.106075s][吞吐率：9.43req/s] [内存消耗：1,345.91kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '73150d15-7602-bb65-cb7b-ffb80c2f0f3b',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\appnews\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-04-18T23:02:54+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.101967s][吞吐率：9.81req/s] [内存消耗：1,315.91kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '0766eddf-f584-bc0b-39e3-f8c1f33fbf73',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:04:08+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.093364s][吞吐率：10.71req/s] [内存消耗：1,345.97kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '0cb24823-bec9-d683-bcaf-7b7daa73447e',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\appnews\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-04-18T23:14:59+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.081568s][吞吐率：12.26req/s] [内存消耗：1,324.94kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => '6a08c34d-da41-fcda-db2d-b485b23768df',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:15:45+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.100945s][吞吐率：9.91req/s] [内存消耗：1,350.86kb] [文件加载：54]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'd51bf97b-6ad7-ec94-e883-b428c70d6737',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]app_type不存在[F:\appnews\application\api\controller\Common.php:42]
+---------------------------------------------------------------
+[ 2018-04-18T23:15:52+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.083079s][吞吐率：12.04req/s] [内存消耗：1,324.94kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'd7a8b95d-9515-626b-d77c-20c3c6d1a600',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:16:50+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.076775s][吞吐率：13.03req/s] [内存消耗：1,324.94kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'HeWn+pqm/5/Tt1nK68c/iUpmNDdHaXVFYVNxb2RDYldmVzZzV0JQZXpJaUZxOFhZS2FMRVVaMkhkV3BMV3ljOVA3ZDNRQ0lMdFFURHJ4alo=',
+  'postman-token' => 'c653149f-977f-539c-6862-6d62e0f6d649',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:17:57+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.348883s][吞吐率：2.87req/s] [内存消耗：1,345.17kb] [文件加载：53]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => '5a2c58ee-b8de-59a4-3df6-5194d592f155',
+  'cache-control' => 'no-cache',
+  'did' => '12345dg',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:25:59+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.192979s][吞吐率：5.18req/s] [内存消耗：1,325.71kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => 'dea0b729-3aab-3bdf-7cc9-2fe50f52b29d',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:27:51+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.084831s][吞吐率：11.79req/s] [内存消耗：1,325.71kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => '7028fba3-3f32-011d-49dc-0e143f5ce05a',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:28:16+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.202061s][吞吐率：4.95req/s] [内存消耗：1,358.05kb] [文件加载：55]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => '01dc7c67-79e8-5dea-5a72-def7d28a1175',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:28:46+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.128568s][吞吐率：7.78req/s] [内存消耗：1,326.01kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => 'f41b0dd2-365b-0d41-d2a7-f0b16f377635',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:30:10+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.240770s][吞吐率：4.15req/s] [内存消耗：1,361.44kb] [文件加载：56]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8vd3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => 'b5e59fc6-de62-8e1d-8a0f-18b0f9855d2d',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]openssl_decrypt(): Failed to base64 decode the input[F:\appnews\application\common\lib\Aes.php:51]
+---------------------------------------------------------------
+[ 2018-04-18T23:30:18+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.108394s][吞吐率：9.23req/s] [内存消耗：1,326.01kb] [文件加载：52]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => '5a737f65-f04c-661b-6608-62cd3da77c4a',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ F:\appnews\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:41:42+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.088715s][吞吐率：11.27req/s] [内存消耗：1,348.13kb] [文件加载：54]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => 'ae771a3c-25d6-f1eb-a821-981a0dfbfb53',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:42:15+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ info ] www.appnews.com/public/index.php/api/test [运行时间：0.135172s][吞吐率：7.40req/s] [内存消耗：1,270.72kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => '1Hjd8v3Z2vJ4AE01KaUh2HJVdmI3R2J0dDRlU0ZlQkFRUW5PaEk0WTdCTWhwVVFlY0FDRjBZUkdNUG89',
+  'postman-token' => '6e8a22f2-1cb4-3a69-7c4c-4ec6f2d2d8f9',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-18T23:46:55+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]授权码sign失败
+---------------------------------------------------------------
+[ 2018-04-18T23:56:56+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]授权码sign失败

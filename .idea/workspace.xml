@@ -12,7 +12,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Common.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Common.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/controller/Common.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
@@ -21,6 +21,16 @@
                 <element signature="e#6#99#0#PHP" expanded="true" />
                 <element signature="e#133#156#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runtime/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,6 +184,7 @@
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/application/api/controller/Test.php" />
         <option value="$PROJECT_DIR$/application/api/controller/Common.php" />
+        <option value="$PROJECT_DIR$/runtime/.gitignore" />
       </list>
     </option>
   </component>
@@ -634,12 +645,12 @@
       <workItem from="1523976005329" duration="5768000" />
       <workItem from="1524062036370" duration="6863000" />
       <workItem from="1524102446846" duration="542000" />
-      <workItem from="1524104501692" duration="831000" />
+      <workItem from="1524104501692" duration="1210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80258000" />
+    <option name="totallyTimeSpent" value="80637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -677,13 +688,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/admin/view/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/h-uiadmin/static/h-ui.admin/images/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1076,6 +1080,14 @@
             <element signature="e#6#99#0#PHP" expanded="true" />
             <element signature="e#133#156#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

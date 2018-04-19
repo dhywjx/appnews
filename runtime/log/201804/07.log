@@ -1,0 +1,3526 @@
+---------------------------------------------------------------
+[ 2018-04-07T22:20:22+08:00 ] 127.0.0.1 GET /public/index.php
+[ info ] www.appnews.com/public/index.php [运行时间：3.312832s][吞吐率：0.30req/s] [内存消耗：1,304.52kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:25+08:00 ] 127.0.0.1 GET /public/index.php/admin/login/login.html
+[ info ] www.appnews.com/public/index.php/admin/login/login.html [运行时间：0.260869s][吞吐率：3.83req/s] [内存消耗：1,312.95kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ F:\appnews\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:26+08:00 ] 127.0.0.1 GET /public/index.php/admin/login/show_captcha.html
+[ info ] www.appnews.com/public/index.php/admin/login/show_captcha.html [运行时间：0.317276s][吞吐率：3.15req/s] [内存消耗：1,309.74kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'show_captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->show_captcha[ F:\appnews\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:37+08:00 ] 127.0.0.1 GET /public/index.php/admin/login/show_captcha/id/%22+Math.random%28%29+++%22.html
+[ info ] www.appnews.com/public/index.php/admin/login/show_captcha/id/%22+Math.random%28%29+++%22.html [运行时间：0.108439s][吞吐率：9.22req/s] [内存消耗：1,310.53kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'show_captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '"+Math.random()+++"',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->show_captcha[ F:\appnews\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:38+08:00 ] 127.0.0.1 GET /public/index.php/admin/login/show_captcha/id/%22+Math.random%28%29+++%22.html
+[ info ] www.appnews.com/public/index.php/admin/login/show_captcha/id/%22+Math.random%28%29+++%22.html [运行时间：0.088692s][吞吐率：11.27req/s] [内存消耗：1,310.53kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'show_captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '"+Math.random()+++"',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->show_captcha[ F:\appnews\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:44+08:00 ] 127.0.0.1 POST /public/index.php/admin/login/check.html
+[ info ] www.appnews.com/public/index.php/admin/login/check.html [运行时间：1.235736s][吞吐率：0.81req/s] [内存消耗：2,188.18kb] [文件加载：61]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.appnews.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '38',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'test',
+  'password' => '12345',
+  'code' => 'cvwb',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ F:\appnews\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.190920s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_admin_user` [ RunTime:0.051799s ]
+[ sql ] [ SQL ] SELECT * FROM `ent_admin_user` WHERE  `username` = 'test' LIMIT 1 [ RunTime:0.072969s ]
+---------------------------------------------------------------
+[ 2018-04-07T22:20:45+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.678494s][吞吐率：1.47req/s] [内存消耗：1,446.34kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:45+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.185071s][吞吐率：5.40req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:46+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js [运行时间：0.420132s][吞吐率：2.38req/s] [内存消耗：1,288.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:46+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.076128s][吞吐率：13.14req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:20:46+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.079277s][吞吐率：12.61req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:26:55+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.107900s][吞吐率：9.27req/s] [内存消耗：1,265.97kb] [文件加载：47]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:28:19+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/index.html
+[ info ] www.appnews.com/public/index.php/admin/news/index.html [运行时间：0.541063s][吞吐率：1.85req/s] [内存消耗：2,198.08kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->index[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\index.html [ array (
+  0 => 'cats',
+  1 => 'catid',
+  2 => 'title',
+  3 => 'start_time',
+  4 => 'end_time',
+  5 => 'news',
+  6 => 'query',
+  7 => 'total',
+  8 => 'curr',
+  9 => 'size',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103879s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_news` [ RunTime:0.028112s ]
+[ sql ] [ SQL ] SELECT `id`,`catid`,`image`,`title`,`read_count`,`status`,`is_position`,`update_time`,`create_time` FROM `ent_news` WHERE  `status` <> -1 ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.029066s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ent_news` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.029835s ]
+---------------------------------------------------------------
+[ 2018-04-07T22:28:25+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/index.html?&page=2
+[ info ] www.appnews.com/public/index.php/admin/news/index.html?&page=2 [运行时间：0.335238s][吞吐率：2.98req/s] [内存消耗：2,193.71kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/news/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->index[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\index.html [ array (
+  0 => 'cats',
+  1 => 'catid',
+  2 => 'title',
+  3 => 'start_time',
+  4 => 'end_time',
+  5 => 'news',
+  6 => 'query',
+  7 => 'total',
+  8 => 'curr',
+  9 => 'size',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070895s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_news` [ RunTime:0.057570s ]
+[ sql ] [ SQL ] SELECT `id`,`catid`,`image`,`title`,`read_count`,`status`,`is_position`,`update_time`,`create_time` FROM `ent_news` WHERE  `status` <> -1 ORDER BY `id`  desc LIMIT 5,5 [ RunTime:0.054198s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ent_news` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.046845s ]
+---------------------------------------------------------------
+[ 2018-04-07T22:28:28+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/index.html?page=2&page=1
+[ info ] www.appnews.com/public/index.php/admin/news/index.html?page=2&page=1 [运行时间：0.315756s][吞吐率：3.17req/s] [内存消耗：2,198.81kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/news/index.html?&page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->index[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\index.html [ array (
+  0 => 'cats',
+  1 => 'catid',
+  2 => 'title',
+  3 => 'start_time',
+  4 => 'end_time',
+  5 => 'news',
+  6 => 'query',
+  7 => 'total',
+  8 => 'curr',
+  9 => 'size',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055927s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_news` [ RunTime:0.060546s ]
+[ sql ] [ SQL ] SELECT `id`,`catid`,`image`,`title`,`read_count`,`status`,`is_position`,`update_time`,`create_time` FROM `ent_news` WHERE  `status` <> -1 ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.050496s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ent_news` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.042329s ]
+---------------------------------------------------------------
+[ 2018-04-07T22:28:36+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/index.html?page=1&page=2
+[ info ] www.appnews.com/public/index.php/admin/news/index.html?page=1&page=2 [运行时间：0.393381s][吞吐率：2.54req/s] [内存消耗：2,193.74kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/news/index.html?page=2&page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->index[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\index.html [ array (
+  0 => 'cats',
+  1 => 'catid',
+  2 => 'title',
+  3 => 'start_time',
+  4 => 'end_time',
+  5 => 'news',
+  6 => 'query',
+  7 => 'total',
+  8 => 'curr',
+  9 => 'size',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.089853s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_news` [ RunTime:0.073316s ]
+[ sql ] [ SQL ] SELECT `id`,`catid`,`image`,`title`,`read_count`,`status`,`is_position`,`update_time`,`create_time` FROM `ent_news` WHERE  `status` <> -1 ORDER BY `id`  desc LIMIT 5,5 [ RunTime:0.058116s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ent_news` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.059814s ]
+---------------------------------------------------------------
+[ 2018-04-07T22:28:39+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/index.html?page=2&page=1
+[ info ] www.appnews.com/public/index.php/admin/news/index.html?page=2&page=1 [运行时间：0.281794s][吞吐率：3.55req/s] [内存消耗：2,198.81kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/news/index.html?page=1&page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->index[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\index.html [ array (
+  0 => 'cats',
+  1 => 'catid',
+  2 => 'title',
+  3 => 'start_time',
+  4 => 'end_time',
+  5 => 'news',
+  6 => 'query',
+  7 => 'total',
+  8 => 'curr',
+  9 => 'size',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048733s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_news` [ RunTime:0.029952s ]
+[ sql ] [ SQL ] SELECT `id`,`catid`,`image`,`title`,`read_count`,`status`,`is_position`,`update_time`,`create_time` FROM `ent_news` WHERE  `status` <> -1 ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.029067s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ent_news` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.030347s ]
+---------------------------------------------------------------
+[ 2018-04-07T22:28:45+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/index.html?catid=3&start_time=&end_time=&title=
+[ info ] www.appnews.com/public/index.php/admin/news/index.html?catid=3&start_time=&end_time=&title= [运行时间：0.287688s][吞吐率：3.48req/s] [内存消耗：2,194.95kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/news/index.html?page=2&page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'catid' => '3',
+  'start_time' => '',
+  'end_time' => '',
+  'title' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->index[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\index.html [ array (
+  0 => 'cats',
+  1 => 'catid',
+  2 => 'title',
+  3 => 'start_time',
+  4 => 'end_time',
+  5 => 'news',
+  6 => 'query',
+  7 => 'total',
+  8 => 'curr',
+  9 => 'size',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050555s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_news` [ RunTime:0.032621s ]
+[ sql ] [ SQL ] SELECT `id`,`catid`,`image`,`title`,`read_count`,`status`,`is_position`,`update_time`,`create_time` FROM `ent_news` WHERE  `catid` = 3  AND `status` <> -1 ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.034243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ent_news` WHERE  `catid` = 3  AND `status` <> -1 LIMIT 1 [ RunTime:0.032719s ]
+---------------------------------------------------------------
+[ 2018-04-07T22:40:49+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.131992s][吞吐率：7.58req/s] [内存消耗：1,428.98kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:48:11+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.129182s][吞吐率：7.74req/s] [内存消耗：1,431.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:48:57+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.106642s][吞吐率：9.38req/s] [内存消耗：1,436.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:53:29+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.191720s][吞吐率：5.22req/s] [内存消耗：1,437.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:54:05+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.169623s][吞吐率：5.90req/s] [内存消耗：1,437.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:54:30+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.109822s][吞吐率：9.11req/s] [内存消耗：1,437.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:55:03+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.171806s][吞吐率：5.82req/s] [内存消耗：1,437.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:55:50+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.123309s][吞吐率：8.11req/s] [内存消耗：1,437.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T22:59:01+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.139217s][吞吐率：7.18req/s] [内存消耗：1,437.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:00:18+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.173738s][吞吐率：5.76req/s] [内存消耗：1,437.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:00:39+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.156206s][吞吐率：6.40req/s] [内存消耗：1,437.61kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:05:15+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.150857s][吞吐率：6.63req/s] [内存消耗：1,440.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:10:47+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.159706s][吞吐率：6.26req/s] [内存消耗：1,441.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:12:06+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.158604s][吞吐率：6.31req/s] [内存消耗：1,441.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:12:26+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.091511s][吞吐率：10.93req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:12:26+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.121140s][吞吐率：8.25req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:12:27+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.071493s][吞吐率：13.99req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:12:28+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.099946s][吞吐率：10.01req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:12:28+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.188443s][吞吐率：5.31req/s] [内存消耗：1,441.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:12:29+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js [运行时间：0.105353s][吞吐率：9.49req/s] [内存消耗：1,288.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:12:29+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.084142s][吞吐率：11.88req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:16:30+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.182870s][吞吐率：5.47req/s] [内存消耗：1,445.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:17+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.102948s][吞吐率：9.71req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:18+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.118553s][吞吐率：8.44req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:18+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.068527s][吞吐率：14.59req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:18+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.101211s][吞吐率：9.88req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:19+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.054629s][吞吐率：18.31req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:19+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.140780s][吞吐率：7.10req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:20+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js [运行时间：0.121911s][吞吐率：8.20req/s] [内存消耗：1,288.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:21+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.080141s][吞吐率：12.48req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:18:21+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.238368s][吞吐率：4.20req/s] [内存消耗：1,445.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:22:51+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.195669s][吞吐率：5.11req/s] [内存消耗：1,445.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:25:13+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.207287s][吞吐率：4.82req/s] [内存消耗：1,445.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:26:24+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.212001s][吞吐率：4.72req/s] [内存消耗：1,449.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:02+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.087361s][吞吐率：11.45req/s] [内存消耗：1,324.48kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:13+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.089250s][吞吐率：11.20req/s] [内存消耗：1,324.48kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:51+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.058470s][吞吐率：17.10req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:51+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.119708s][吞吐率：8.35req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:52+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.053299s][吞吐率：18.76req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:52+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.046841s][吞吐率：21.35req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:53+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.123763s][吞吐率：8.08req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:54+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.092460s][吞吐率：10.82req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:54+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js [运行时间：0.093620s][吞吐率：10.68req/s] [内存消耗：1,288.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:54+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.182706s][吞吐率：5.47req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:27:57+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.099940s][吞吐率：10.01req/s] [内存消耗：1,324.48kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:29:11+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.224406s][吞吐率：4.46req/s] [内存消耗：1,449.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:09+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/index.html
+[ info ] www.appnews.com/public/index.php/admin/news/index.html [运行时间：15.850986s][吞吐率：0.06req/s] [内存消耗：2,198.33kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->index[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\index.html [ array (
+  0 => 'cats',
+  1 => 'catid',
+  2 => 'title',
+  3 => 'start_time',
+  4 => 'end_time',
+  5 => 'news',
+  6 => 'query',
+  7 => 'total',
+  8 => 'curr',
+  9 => 'size',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:15.278450s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_news` [ RunTime:0.118876s ]
+[ sql ] [ SQL ] SELECT `id`,`catid`,`image`,`title`,`read_count`,`status`,`is_position`,`update_time`,`create_time` FROM `ent_news` WHERE  `status` <> -1 ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.161484s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ent_news` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.155093s ]
+---------------------------------------------------------------
+[ 2018-04-07T23:37:09+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：2.336688s][吞吐率：0.43req/s] [内存消耗：1,449.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:09+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.949029s][吞吐率：1.05req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:09+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.075884s][吞吐率：13.18req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:09+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.081180s][吞吐率：12.32req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:10+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.120354s][吞吐率：8.31req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:10+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.078233s][吞吐率：12.78req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:10+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js [运行时间：0.132386s][吞吐率：7.55req/s] [内存消耗：1,288.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:10+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.228868s][吞吐率：4.37req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:10+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.135940s][吞吐率：7.36req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:10+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.082540s][吞吐率：12.12req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:10+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js [运行时间：0.068628s][吞吐率：14.57req/s] [内存消耗：1,288.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:10+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.131552s][吞吐率：7.60req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:12+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.088707s][吞吐率：11.27req/s] [内存消耗：1,324.48kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:37:16+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/index.html
+[ info ] www.appnews.com/public/index.php/admin/news/index.html [运行时间：0.967572s][吞吐率：1.03req/s] [内存消耗：2,198.33kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->index[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\index.html [ array (
+  0 => 'cats',
+  1 => 'catid',
+  2 => 'title',
+  3 => 'start_time',
+  4 => 'end_time',
+  5 => 'news',
+  6 => 'query',
+  7 => 'total',
+  8 => 'curr',
+  9 => 'size',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.315508s ] mysql:host=111.231.143.243;port=3306;dbname=appnews;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ent_news` [ RunTime:0.145285s ]
+[ sql ] [ SQL ] SELECT `id`,`catid`,`image`,`title`,`read_count`,`status`,`is_position`,`update_time`,`create_time` FROM `ent_news` WHERE  `status` <> -1 ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.131400s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ent_news` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.158622s ]
+---------------------------------------------------------------
+[ 2018-04-07T23:37:26+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.184138s][吞吐率：5.43req/s] [内存消耗：1,449.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:49:57+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.103517s][吞吐率：9.66req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:49:57+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.112825s][吞吐率：8.86req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:49:58+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.139307s][吞吐率：7.18req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:49:58+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js [运行时间：0.099234s][吞吐率：10.08req/s] [内存消耗：1,288.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:49:59+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.084582s][吞吐率：11.82req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:50:00+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.215658s][吞吐率：4.64req/s] [内存消耗：1,449.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:52:28+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/index.html
+[ info ] www.appnews.com/public/index.php/admin/index/index.html [运行时间：0.059863s][吞吐率：16.70req/s] [内存消耗：1,314.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:52:28+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.046617s][吞吐率：21.45req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:52:29+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/welcome.html
+[ info ] www.appnews.com/public/index.php/admin/index/welcome.html [运行时间：0.115077s][吞吐率：8.69req/s] [内存消耗：1,265.03kb] [文件加载：48]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\appnews\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:52:29+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery/1.9.1/jquery.min.js [运行时间：0.124086s][吞吐率：8.06req/s] [内存消耗：1,288.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:52:30+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[ info ] www.appnews.com/public/index.php/admin/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js [运行时间：0.153914s][吞吐率：6.50req/s] [内存消耗：1,288.77kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:52:30+08:00 ] 127.0.0.1 GET /public/index.php/admin/index/static/h-ui/js/H-ui.min.js
+[ info ] www.appnews.com/public/index.php/admin/index/static/h-ui/js/H-ui.min.js [运行时间：0.086358s][吞吐率：11.58req/s] [内存消耗：1,288.68kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/welcome.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-07T23:52:31+08:00 ] 127.0.0.1 GET /public/index.php/admin/news/add.html
+[ info ] www.appnews.com/public/index.php/admin/news/add.html [运行时间：0.170214s][吞吐率：5.87req/s] [内存消耗：1,453.36kb] [文件加载：51]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3343246336; Hm_lvt_080836300300be57b7f34f4b3e97d911=1515745273; PHPSESSID=2kuurbqbfo4a849rgbbijmkp64',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.appnews.com/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\News->add[ F:\appnews\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\appnews\public/../application/admin\view\news\add.html [ array (
+  0 => 'cats',
+) ]
+[ info ] [ LOG ] INIT File

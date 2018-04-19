@@ -1,0 +1,548 @@
+---------------------------------------------------------------
+[ 2018-04-19T00:13:22+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]授权码sign失败
+---------------------------------------------------------------
+[ 2018-04-19T00:14:31+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]授权码sign失败
+---------------------------------------------------------------
+[ 2018-04-19T00:14:38+08:00 ] 127.0.0.1 POST /public/index.php/api/test
+[ error ] [0]授权码sign失败
+---------------------------------------------------------------
+[ 2018-04-19T00:24:48+08:00 ] 127.0.0.1 POST /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.115955s][吞吐率：8.62req/s] [内存消耗：1,148.80kb] [文件加载：46]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'cat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'njBnEQ7tdnHuqnQ/zeLOmk5meEFhRVVZUU82K0cvOXpjc3FZdWZQZkIvbjZWNDFmSlVXMnVFSnR3N09BT1hjR0diV0xCRWRtK0xZMFQ1VVkvVkhYR3BaNmlsbWx3Q3UrcWdMV3ZnPT0=',
+  'postman-token' => '4742a73d-bb61-a2c2-ac1c-9a049ad4b1a3',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangjingxu',
+  'age' => '22',
+  'phone' => '18892621692',
+  'haha' => 'good',
+  'mt' => '3',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-19T00:24:57+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.161170s][吞吐率：6.20req/s] [内存消耗：1,419.14kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'njBnEQ7tdnHuqnQ/zeLOmk5meEFhRVVZUU82K0cvOXpjc3FZdWZQZkIvbjZWNDFmSlVXMnVFSnR3N09BT1hjR0diV0xCRWRtK0xZMFQ1VVkvVkhYR3BaNmlsbWx3Q3UrcWdMV3ZnPT0=',
+  'postman-token' => 'fdc1b14b-78fb-0a31-4de7-cc81be99b896',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
+---------------------------------------------------------------
+[ 2018-04-19T10:27:24+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：2.585858s][吞吐率：0.39req/s] [内存消耗：1,419.14kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'njBnEQ7tdnHuqnQ/zeLOmk5meEFhRVVZUU82K0cvOXpjc3FZdWZQZkIvbjZWNDFmSlVXMnVFSnR3N09BT1hjR0diV0xCRWRtK0xZMFQ1VVkvVkhYR3BaNmlsbWx3Q3UrcWdMV3ZnPT0=',
+  'postman-token' => 'eafa796b-1c56-0e84-dea8-e4605d4aaf9e',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
+---------------------------------------------------------------
+[ 2018-04-19T10:29:28+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.135023s][吞吐率：7.41req/s] [内存消耗：1,419.26kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'njBnEQ7tdnHuqnQ/zeLOmk5meEFhRVVZUU82K0cvOXpjc3FZdWZQZkIvbjZWNDFmSlVXMnVFSnR3N09BT1hjR0diV0xCRWRtK0xZMFQ1VVkvVkhYR3BaNmlsbWx3Q3UrcWdMV3ZnPT0=',
+  'postman-token' => '98dcb96e-c873-d618-acd0-212308bfad85',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
+---------------------------------------------------------------
+[ 2018-04-19T10:29:35+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.112022s][吞吐率：8.93req/s] [内存消耗：1,419.26kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'njBnEQ7tdnHuqnQ/zeLOmk5meEFhRVVZUU82K0cvOXpjc3FZdWZQZkIvbjZWNDFmSlVXMnVFSnR3N09BT1hjR0diV0xCRWRtK0xZMFQ1VVkvVkhYR3BaNmlsbWx3Q3UrcWdMV3ZnPT0=',
+  'postman-token' => 'c24b5ecc-6f5f-276f-5694-a0867db50e3e',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
+---------------------------------------------------------------
+[ 2018-04-19T10:30:00+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.214483s][吞吐率：4.66req/s] [内存消耗：1,273.34kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'njBnEQ7tdnHuqnQ/zeLOmk5meEFhRVVZUU82K0cvOXpjc3FZdWZQZkIvbjZWNDFmSlVXMnVFSnR3N09BT1hjR0diV0xCRWRtK0xZMFQ1VVkvVkhYR3BaNmlsbWx3Q3UrcWdMV3ZnPT0=',
+  'postman-token' => '08260d70-c083-e609-4b05-eb353b4f4512',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-19T10:31:06+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.111105s][吞吐率：9.00req/s] [内存消耗：1,273.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => '3d6313ff-99e9-d288-2636-47c726adc2c3',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-19T10:31:16+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.236363s][吞吐率：4.23req/s] [内存消耗：1,385.25kb] [文件加载：55]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => '7dbd39e7-5393-f636-75c8-b9c7958853c5',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-19T10:31:25+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.106147s][吞吐率：9.42req/s] [内存消耗：1,419.19kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => '82cdd04c-e156-de1f-8caa-e4820646631c',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
+---------------------------------------------------------------
+[ 2018-04-19T10:31:35+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.121414s][吞吐率：8.24req/s] [内存消耗：1,419.19kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => '35df5706-aaaf-ec4a-3e41-f3e23aa6a083',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
+---------------------------------------------------------------
+[ 2018-04-19T10:32:06+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.058352s][吞吐率：17.14req/s] [内存消耗：1,385.25kb] [文件加载：55]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => '70722ecf-49fe-aaa5-4a1d-5518642b13aa',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-19T10:32:08+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.100639s][吞吐率：9.94req/s] [内存消耗：1,419.19kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => '0abdd822-ba0d-db07-1097-a2dd9fab41ab',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
+---------------------------------------------------------------
+[ 2018-04-19T10:36:12+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.077786s][吞吐率：12.86req/s] [内存消耗：1,419.19kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => 'da47828e-9187-8885-9752-de9bc454ba66',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
+---------------------------------------------------------------
+[ 2018-04-19T10:36:26+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.061912s][吞吐率：16.15req/s] [内存消耗：1,385.25kb] [文件加载：55]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => '4f1a7667-f997-b0e7-347b-bb038f729ff1',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Cat->read[ F:\appnews\application\api\controller\v1\Cat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-19T10:36:29+08:00 ] 127.0.0.1 GET /public/index.php/api/v1/cat
+[ info ] www.appnews.com/public/index.php/api/v1/cat [运行时间：0.112083s][吞吐率：8.92req/s] [内存消耗：1,419.19kb] [文件加载：59]
+[ info ] [ LANG ] F:\appnews\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.cat',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'version' => '1',
+  'sign' => 'V0FORzE5OTZKSU5HMTFYVWdzTnFIM2R3M3pRSzhVWWtXZno0UDNaZjVubENyWnNrYTJrMWRVWVFhNks3OEVuMThEODdFa3BaRTkvWlNTbit4azRhcTUvRTZ2cURPVFRDMEdkVFJnPT0=',
+  'postman-token' => 'ff883bf1-c27b-de3e-29b4-8840c3041aad',
+  'cache-control' => 'no-cache',
+  'did' => '1231',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'model' => 'xiaomi5',
+  'apptype' => 'android',
+  'connection' => 'close',
+  'host' => 'www.appnews.com',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]授权码sign失败[F:\appnews\application\api\controller\Common.php:56]
