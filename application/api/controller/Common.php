@@ -63,7 +63,7 @@ class Common extends Controller
     {
         $data = [
             'did' => '1231',
-            'version' => '1',ce
+            'version' => '1',
             'username' => 'wjx',
             'time' => Time::get13TimeStamp(),
         ];
