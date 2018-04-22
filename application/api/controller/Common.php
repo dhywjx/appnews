@@ -26,6 +26,12 @@ class Common extends Controller
      * @var string
      */
     public $headers = '';
+    //page 获取页数
+    protected $page = '';
+    //size 获取每页多少条数据
+    protected $size = '';
+    //from 查询条件中的新闻起始值
+    protected $from = 0;
 
     /**
      * 初始化方法
@@ -57,6 +63,31 @@ class Common extends Controller
         }
         $this->headers = $headers;
         Cache::set($headers['sign'], config("app.app_sign_cache_time"));
+    }
+
+    /**
+     * 新闻栏目标签的添加
+     * @param array $news
+     * @return array
+     */
+    public function getDealNews($news = [])
+    {
+        if (empty($news)) {
+            return [];
+        }
+        $cats = config("cat.lists");
+        foreach ($news as $key => $new) {
+            $news[$key]['catname'] = getCatName($new['catid']);
+        }
+        return $news;
+    }
+
+    //获取新闻分页的 page size from 的值
+    protected function getPageAndSize($data = [])
+    {
+        $this->page = empty($data['page']) ? 1 : $data['page'];
+        $this->size = empty($data['size']) ? config("paginate.list_rows") : $data['size'];
+        $this->from = ($this->page - 1) * $this->size;
     }
 
     public function testAes()

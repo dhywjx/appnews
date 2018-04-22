@@ -55,11 +55,71 @@ class News extends Base
     }
 
     /**
+     * 获取首页头图
+     * @param int $num //数量
+     * @return false|\PDOStatement|string|\think\Collection
+     */
+    public function getIndexHeadNormalNews($num = 4)
+    {
+        $condition = [
+            'status' => 1,
+            'is_head_figure' => 1,
+        ];
+
+        $order = [
+            'id' => 'desc',
+        ];
+
+        $result = $this->where($condition)
+            ->field($this->_getListField())
+            ->order($order)
+            ->limit($num)
+            ->select();
+
+        return $result;
+    }
+
+    /**
+     * 获取推荐新闻
+     * @param int $num
+     * @return false|\PDOStatement|string|\think\Collection
+     */
+    public function getPositionNormalNews($num = 20)
+    {
+        $condition = [
+            'status' => 1,
+            'is_position' => 1,
+        ];
+
+        $order = [
+            'id' => 'desc',
+        ];
+
+        $result = $this->where($condition)
+            ->field($this->_getListField())
+            ->order($order)
+            ->limit($num)
+            ->select();
+
+        return $result;
+    }
+
+    /**
      * 通用化获取新闻列表参数的数据字段
      * @return array
      */
     private function _getListField()
     {
-        return ['id', 'catid', 'image', 'title', 'read_count','status','is_position','update_time','create_time'];
+        return [
+            'id',
+            'catid',
+            'image',
+            'title',
+            'read_count',
+            'status',
+            'is_position',
+            'update_time',
+            'create_time',
+        ];
     }
 }

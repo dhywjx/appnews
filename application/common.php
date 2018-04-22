@@ -63,7 +63,7 @@ function getCatName($catId = 0)
 
     $cats = config("cat.lists");
 
-    return !empty($cats[$catId]) ? $cats[$catId] : '';
+    return !empty($cats[$catId]) ? $cats[$catId] : '-';
 }
 
 /**
