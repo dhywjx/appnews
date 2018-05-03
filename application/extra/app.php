@@ -10,7 +10,7 @@ return [
     //密码加密言
     'password_pre_halt' => '_#wang_jx',
     //AES加密解密密钥
-    'aes_key' => 'WANG1996JING11XU22',
+    'aes_key' => 'sgg45747ss223455',
     //app_type的类型
     'apptypes' => [
         'ios',
