@@ -39,7 +39,7 @@ class Index extends Common
      */
     public function init()
     {
-        $version = model('Version')->getLastNormalVersionByAppType($this->headers['apptype']);
+        $version = model('Version')->getLastNormalVersionByAppType($this->headers['app_type']);
 
         if (empty($version)) {
             return show_api_json(config("code.error"), 'error', [], 404);
@@ -53,7 +53,7 @@ class Index extends Common
 
         $actives = [
             'version' => $this->headers['version'],
-            'app_type' => $this->headers['apptype'],
+            'app_type' => $this->headers['app_type'],
             'did' => $this->headers['did'],
             'model' => $this->headers['model'],
         ];

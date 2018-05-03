@@ -52,10 +52,10 @@ class Common extends Controller
         if (empty($headers['sign'])) {
             throw new ApiException('sign不存在', 400);
         }
-        if (empty($headers['apptype'])) {
+        if (empty($headers['app_type'])) {
             throw new ApiException('app_type不存在', 400);
         }
-        if (!in_array($headers['apptype'], config("app.apptypes"))) {
+        if (!in_array($headers['app_type'], config("app.apptypes"))) {
             throw new ApiException('app_type不合法', 400);
         }
         if (!IAuth::checkSignPass($headers)){
