@@ -15,6 +15,7 @@ Route::get('api/:ver/time', 'api/:ver.time/index');
 Route::get('api/:ver/cat', 'api/:ver.cat/read');
 Route::get('api/:ver/index', 'api/:ver.index/index');
 Route::get('api/:ver/rank', 'api/:ver.rank/index');
+Route::get('api/:ver/init', 'api/:ver.index/init');
 Route::resource('test','api/test');
 
 Route::resource('api/:ver/news', 'api/:ver.news');
