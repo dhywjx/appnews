@@ -38,7 +38,7 @@ class Common extends Controller
      */
     public function _initialize()
     {
-        $this->checkRequestAuth();
+//        $this->checkRequestAuth();
 //        $this->testAes();
     }
 
