@@ -38,7 +38,7 @@ class Common extends Controller
      */
     public function _initialize()
     {
-//        $this->checkRequestAuth();
+        $this->checkRequestAuth();
 //        $this->testAes();
     }
 
@@ -48,21 +48,21 @@ class Common extends Controller
     public function checkRequestAuth()
     {
         $headers = request()->header();
-
-        if (empty($headers['sign'])) {
-            throw new ApiException('sign不存在', 400);
-        }
-        if (empty($headers['app_type'])) {
-            throw new ApiException('app_type不存在', 400);
-        }
-        if (!in_array($headers['app_type'], config("app.apptypes"))) {
-            throw new ApiException('app_type不合法', 400);
-        }
-        if (!IAuth::checkSignPass($headers)){
-            throw new ApiException('授权码sign失败', 401);
-        }
+//
+//        if (empty($headers['sign'])) {
+//            throw new ApiException('sign不存在', 400);
+//        }
+//        if (empty($headers['app_type'])) {
+//            throw new ApiException('app_type不存在', 400);
+//        }
+//        if (!in_array($headers['app_type'], config("app.apptypes"))) {
+//            throw new ApiException('app_type不合法', 400);
+//        }
+//        if (!IAuth::checkSignPass($headers)){
+//            throw new ApiException('授权码sign失败', 401);
+//        }
         $this->headers = $headers;
-        Cache::set($headers['sign'], config("app.app_sign_cache_time"));
+//        Cache::set($headers['sign'], config("app.app_sign_cache_time"));
     }
 
     /**
