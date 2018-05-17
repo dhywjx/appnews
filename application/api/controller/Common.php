@@ -59,9 +59,9 @@ class Common extends Controller
         if (!in_array($headers['app_type'], config("app.apptypes"))) {
             return show_api_json(config("code.error"), 'app_type不合法', [], 400);
         }
-        if (!IAuth::checkSignPass($headers)){
-            return show_api_json(config("code.error"), '授权码sign失败', [], 401);
-        }
+//        if (!IAuth::checkSignPass($headers)){
+//            return show_api_json(config("code.error"), '授权码sign失败', [], 401);
+//        }
         $this->headers = $headers;
         $redis = new \Redis();
         $redis->connect("127.0.0.1", 7200);
