@@ -59,7 +59,7 @@ class IAuth
                 return false;
             }
             $redis = new \Redis();
-            $redis->connect("127.0.0.1", 7200);
+            $redis->connect("139.224.117.254", 7200);
 //            if (Cache::get($data['sign'])) {
 //                return false;
 //            }
