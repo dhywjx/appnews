@@ -11,6 +11,7 @@ namespace app\common\lib;
 
 
 use think\Cache;
+use think\queue\job\Redis;
 
 class IAuth
 {
@@ -57,7 +58,12 @@ class IAuth
             if ((time() - ceil($arr['time'] / 1000)) > config("app.app_sign_time")) {
                 return false;
             }
-            if (Cache::get($data['sign'])) {
+            $redis = new \Redis();
+            $redis->connect("127.0.0.1", 7200);
+//            if (Cache::get($data['sign'])) {
+//                return false;
+//            }
+            if ($redis->get($data['sign'])){
                 return false;
             }
         }

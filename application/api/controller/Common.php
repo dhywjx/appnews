@@ -16,6 +16,7 @@ use app\common\lib\IAuth;
 use app\common\lib\Time;
 use Qiniu\Auth;
 use think\Cache;
+use think\cache\driver\Redis;
 use think\Controller;
 
 class Common extends Controller
@@ -58,10 +59,14 @@ class Common extends Controller
         if (!in_array($headers['app_type'], config("app.apptypes"))) {
             return show_api_json(config("code.error"), 'app_type不合法', [], 400);
         }
-//        if (!IAuth::checkSignPass($headers)){
-//            return show_api_json(config("code.error"), '授权码sign失败', [], 401);
-//        }
+        if (!IAuth::checkSignPass($headers)){
+            return show_api_json(config("code.error"), '授权码sign失败', [], 401);
+        }
         $this->headers = $headers;
+        $redis = new \Redis();
+        $redis->connect("127.0.0.1", 7200);
+        $redis->delete($headers['sign']);
+        $redis->set($headers['sign'], config("app.app_sign_cache_time"));
 //        Cache::set($headers['sign'], config("app.app_sign_cache_time"));
     }
 
